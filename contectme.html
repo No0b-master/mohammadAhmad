@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Contact me to get in touch">
+  	<meta name="author" content="Mohd Ahmad">
+      <link rel="icon" href="../WL/favicon.ico" type="image-icon">
+  <title>Mohammad Ahmad | Contact Me</title>
+  <link rel="stylesheet" href="style.css">
+ 
+  
+ 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  
+</head>
+
+<style>
+
+    body{
+        background-image: url('../WL/images/call.jpeg');
+        background-size: cover;
+        opacity: 0.9;
+
+    }
+</style>
+
+<body>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.html">Home</a>
+        <a href="myBlog.html">My Blogs</a>
+        <a href="AboutMe.html">About Me</a>
+        <a href="contectme.html">Contact Me</a>
+        
+        
+      </div>
+       
+      <div class="l">
+        <div id="main">
+            <a class="openbtn" onclick="openNav()"><img src="../WL/images/code.png" width="50px" height="50px" > </a>
+      </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    
+
+  <div class="wrapper">
+    <header>Send Me a Message</header>
+    <form action="#">
+      <div class="dbl-field">
+        <div class="field">
+          <input type="text" name="name" placeholder="Enter your name">
+          <i class='fas fa-user'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="email" placeholder="Enter your email">
+          <i class='fas fa-envelope'></i>
+        </div>
+      </div>
+      <div class="dbl-field">
+        <div class="field">
+          <input type="text" name="phone" placeholder="Enter your phone">
+          <i class='fas fa-phone-alt'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="website" placeholder="Enter your website">
+          <i class='fas fa-globe'></i>
+        </div>
+      </div>
+      <div class="message">
+        <textarea placeholder="Write your message" name="message"></textarea>
+        <i class="material-icons">message</i>
+      </div>
+      <div class="button-area">
+        <button type="submit">Send Message</button>
+        <span></span>
+      </div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+<footer id="footer">
+    <div class="container">
+        <ul class="icons">
+            
+            <li><a href="https://www.linkedin.com/in/ahmad-mohd/" target="blank" class="icon fas fa-linkedin"><span class="label">Linkedin</span></a></li>
+            <li><a href="https://github.com/No0b-master" target="blank" class="icon fas fa-github"><span class="label">GitHub</span></a></li>
+            
+        </ul>
+    </div>
+    <div class="copyright">
+        Mohammad Ahmad &copy; 2021 
+    </div>
+</footer>
+
+<script>
+     function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginRight = "0px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginRight= "0";
+}
+</script>
+</html>
