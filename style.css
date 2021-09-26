@@ -292,6 +292,7 @@ ul.icons {
     @media screen and (max-width: 736px) {
 
         #main {
+          padding: 0rem;
            
         }
 
