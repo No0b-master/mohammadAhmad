@@ -14,11 +14,27 @@
  
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
   
 </head>
 
 <style>
+.in{
+  display:flex;
+  align-items:center;
+  justify-content:start;
+  
+}
+
+  .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
 
     body{
         background-image: url('./images/call.jpeg');
@@ -26,6 +42,21 @@
         opacity: 0.9;
 
     }
+
+.a:link{
+  color: black;
+  text-decoration: none;
+}
+.a:visited{
+  color: black;
+  text-decoration: none;
+}
+.a:hover{
+  color: turquoise;
+  text-decoration: none;
+}
+
+
 </style>
 
 <body>
@@ -55,42 +86,33 @@
     
 
   <div class="wrapper">
-    <header>Send Me a Message</header>
-    <form action="#">
-      <div class="dbl-field">
-        <div class="field">
-          <input type="text" name="name" placeholder="Enter your name">
-          <i class='fas fa-user'></i>
-        </div>
-        <div class="field">
-          <input type="text" name="email" placeholder="Enter your email">
-          <i class='fas fa-envelope'></i>
-        </div>
-      </div>
-      <div class="dbl-field">
-        <div class="field">
-          <input type="text" name="phone" placeholder="Enter your phone">
-          <i class='fas fa-phone-alt'></i>
-        </div>
-        <div class="field">
-          <input type="text" name="website" placeholder="Enter your website">
-          <i class='fas fa-globe'></i>
-        </div>
-      </div>
-      <div class="message">
-        <textarea placeholder="Write your message" name="message"></textarea>
-        <i class="material-icons">message</i>
-      </div>
-      <div class="button-area">
-        <button type="submit">Send Message</button>
-        <span></span>
-      </div>
-    </form>
+    <header>You can Contact me through</header>
+    <div class="in">
+      <i class="fa fa-phone" style="font-size: 25px; color: #0024f0;"></i>
+      <p style="font-size: 20px;">9899880626</p>
+    </div>
+    <div class="in">
+      <i class="fa fa-google" style="font-size: 25px; color: #dd4b39;"></i>
+      <p style="font-size: 20px;">ahmadaug20@gmail.com</p>
+    </div>
+    <div class="in">
+      <i class="fa fa-linkedin" style="font-size: 25px; color: #007bb5;"></i>
+      <a class="a"  href="https://www.linkedin.com/in/ahmad-mohd/" target="blank" ><p style="font-size: 20px;">Linkedin</p></a>
+    </div>
+
+    
+    
+    
+
   </div>
 
   <script src="script.js"></script>
 
 </body>
+
+<br>
+<br>
+
 <footer id="footer">
     <div class="container">
         <ul class="icons">
